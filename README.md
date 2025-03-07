@@ -10,15 +10,14 @@
 asthma_breathing_detector\
 README.md\
 requirements.txt\
-data# 此文件夹用于存放传感器数据#
-
-├── data_preprocessing.py # 数据预处理
-├── model.py             # 神经网络模型定义
-├── train.py             # 模型训练脚本
-├── evaluate.py          # 模型评估脚本
-└── main.py              # 总入口（可整合训练、评估）
-└── notebooks
-    └── data_exploration.ipynb  # 可选：数据探索、可视化等
+data #此文件夹用于存放传感器数据\
+data_preprocessing.py # 数据预处理\
+model.py             # 神经网络模型定义\
+train.py             # 模型训练脚本\
+evaluate.py          # 模型评估脚本\
+main.py              # 总入口（可整合训练、评估）\
+notebooks\
+    └── data_exploration.ipynb  # 可选：数据探索、可视化等\
 
 ## 环境依赖
 - Python 3.x
