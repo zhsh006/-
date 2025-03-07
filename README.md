@@ -5,6 +5,7 @@
 - **数据预处理**：去除运动干扰、归一化处理
 - **CNN 模型训练**：用于检测呼吸模式是否异常（呼吸急促）
 - **模型评估**：输出准确率、敏感度、特异度等指标
+**本项目由上海健康医学院人人主动健康团队、临床与转化医学研究中心，共同开发维护**
 
 ## 目录结构
 asthma_breathing_detector\
@@ -27,9 +28,9 @@ notebooks\
 ## 快速开始
 1. 克隆或下载本项目
 2. 安装依赖 `pip install -r requirements.txt`
-3. 生成或准备数据(可使用 `src/data_generation.py`)
-4. 在项目根目录中执行 `python src/train.py` 进行训练
-5. 训练完成后执行 `python src/evaluate.py` 进行评估
+3. 生成或准备数据(可使用 `data_generation.py`)
+4. 在项目根目录中执行 `python train.py` 进行训练
+5. 训练完成后执行 `python evaluate.py` 进行评估
 
 ## 许可证
 (Apache-2.0)
