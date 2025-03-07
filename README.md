@@ -7,10 +7,10 @@
 - **模型评估**：输出准确率、敏感度、特异度等指标
 
 ## 目录结构
-asthma_breathing_detector/
-├── README.md
-├── requirements.txt
-├── data# 此文件夹用于存放传感器数据#
+asthma_breathing_detector\
+README.md\
+requirements.txt\
+data# 此文件夹用于存放传感器数据#
 
 ├── data_preprocessing.py # 数据预处理
 ├── model.py             # 神经网络模型定义
